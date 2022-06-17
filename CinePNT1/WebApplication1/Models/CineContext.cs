@@ -10,8 +10,13 @@ namespace WebCineMVC
 {
     //Esta clase es la conexión a DB que usara EntityFramework, + otras cosas
     // como el manejo de las clases de negocio a las Table de DB
-    internal class CineContext : DbContext
+    public class CineContext : DbContext
     {
+        public CineContext(DbContextOptions<CineContext> options) : base(options)
+        {
+
+        }
+
         public DbSet<Complejo> Complejos { get; set; }
         public DbSet<Sala> Salas { get; set; }
         public DbSet<Funcion> Funciones { get; set; }
@@ -19,11 +24,12 @@ namespace WebCineMVC
         public DbSet<Entrada> Entradas { get; set; }
         public DbSet<Comprador> Compradores { get; set; }
         public DbSet<Asiento> Asientos { get; set; }
-
+        
+        /*
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=DESKTOP-GE740DJ;Database=CinePNT;Trusted_Connection=True");
-        }
+            optionsBuilder.UseSqlServer(@"Server=DESKTOP-G267I84\SQLEXPRESS;Database=CinePNT;Trusted_Connection=True");
+        }*/
     }
 
 

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ORT_PNT1\\proyectoPNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj": {}
+    "D:\\Proyecto PNT Real NO FAKE\\CinePNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj": {}
   },
   "projects": {
-    "D:\\ORT_PNT1\\proyectoPNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj": {
+    "D:\\Proyecto PNT Real NO FAKE\\CinePNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ORT_PNT1\\proyectoPNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj",
+        "projectUniqueName": "D:\\Proyecto PNT Real NO FAKE\\CinePNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj",
         "projectName": "WebCineMVC",
-        "projectPath": "D:\\ORT_PNT1\\proyectoPNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj",
-        "packagesPath": "C:\\Users\\Seba\\.nuget\\packages\\",
-        "outputPath": "D:\\ORT_PNT1\\proyectoPNT1\\CinePNT1\\WebApplication1\\obj\\",
+        "projectPath": "D:\\Proyecto PNT Real NO FAKE\\CinePNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj",
+        "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyecto PNT Real NO FAKE\\CinePNT1\\CinePNT1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Seba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.25, )"
@@ -53,6 +57,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.25, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [
@@ -65,6 +73,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.25, 3.1.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -73,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
