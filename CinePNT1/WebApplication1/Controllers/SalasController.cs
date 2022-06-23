@@ -54,7 +54,7 @@ namespace WebCineMVC.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name")] Sala sala)
+        public async Task<IActionResult> Create([Bind("Id,Numero")] Sala sala)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace WebCineMVC.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] Sala sala)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Numero")] Sala sala)
         {
             if (id != sala.Id)
             {

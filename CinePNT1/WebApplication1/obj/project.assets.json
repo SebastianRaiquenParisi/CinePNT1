@@ -8571,19 +8571,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Brian\\.nuget\\packages\\": {}
+    "C:\\Users\\Sendito\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyecto PNT Real NO FAKE\\CinePNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj",
+      "projectUniqueName": "C:\\Users\\Sendito\\Desktop\\Analista de Sistemas\\1er Año\\2do Cuatrimestre\\PNT1\\CinePNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj",
       "projectName": "WebCineMVC",
-      "projectPath": "D:\\Proyecto PNT Real NO FAKE\\CinePNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj",
-      "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyecto PNT Real NO FAKE\\CinePNT1\\CinePNT1\\WebApplication1\\obj\\",
+      "projectPath": "C:\\Users\\Sendito\\Desktop\\Analista de Sistemas\\1er Año\\2do Cuatrimestre\\PNT1\\CinePNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj",
+      "packagesPath": "C:\\Users\\Sendito\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sendito\\Desktop\\Analista de Sistemas\\1er Año\\2do Cuatrimestre\\PNT1\\CinePNT1\\CinePNT1\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sendito\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8646,12 +8646,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.25, 3.1.25]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

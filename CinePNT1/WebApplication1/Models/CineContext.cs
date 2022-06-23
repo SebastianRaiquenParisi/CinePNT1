@@ -17,13 +17,10 @@ namespace WebCineMVC
 
         }
 
-        public DbSet<Complejo> Complejos { get; set; }
         public DbSet<Sala> Salas { get; set; }
         public DbSet<Funcion> Funciones { get; set; }
         public DbSet<Pelicula> Peliculas { get; set; }
-        public DbSet<Entrada> Entradas { get; set; }
-        public DbSet<Comprador> Compradores { get; set; }
-        public DbSet<Asiento> Asientos { get; set; }
+
         
         /*
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
