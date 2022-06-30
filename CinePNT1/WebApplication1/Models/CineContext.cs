@@ -20,6 +20,8 @@ namespace WebCineMVC
         public DbSet<Sala> Salas { get; set; }
         public DbSet<Funcion> Funciones { get; set; }
         public DbSet<Pelicula> Peliculas { get; set; }
+        public DbSet<Compra> Compras { get; set; }
+        public DbSet<WebCineMVC.Models.Compra> Compra { get; set; }
 
         
         /*

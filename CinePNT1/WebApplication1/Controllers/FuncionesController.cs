@@ -68,6 +68,9 @@ namespace WebCineMVC.Controllers
         {
             if (ModelState.IsValid)
             {
+                //Al atributo "TicketsDisponibles" de la clase Funcion asignarle el atributo 
+                //capacidad de la clase sala. A traves del atributo SalaId, buscamos el atributo de la 
+                //capacidad de la sala.
                 _context.Add(funcion);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

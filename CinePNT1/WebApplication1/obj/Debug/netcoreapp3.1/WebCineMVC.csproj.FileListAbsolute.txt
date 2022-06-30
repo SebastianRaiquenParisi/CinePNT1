@@ -405,3 +405,8 @@ C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\Cin
 C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Salas\Details.cshtml.g.cs
 C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Salas\Edit.cshtml.g.cs
 C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Salas\Index.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Compras\Create.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Compras\Delete.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Compras\Details.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Compras\Edit.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Compras\Index.cshtml.g.cs

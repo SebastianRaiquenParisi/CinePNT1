@@ -3,44 +3,23 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebCineMVC;
 
 namespace WebCineMVC.Migrations
 {
     [DbContext(typeof(CineContext))]
-    partial class CineContextModelSnapshot : ModelSnapshot
+    [Migration("20220629211111_Se agregan cantidad de asientos")]
+    partial class Seagregancantidaddeasientos
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "3.1.25")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-            modelBuilder.Entity("WebCineMVC.Models.Compra", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("CantidadDeEntradas")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Dni")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("FuncionId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("FuncionId");
-
-                    b.ToTable("Compra");
-                });
 
             modelBuilder.Entity("WebCineMVC.Models.Funcion", b =>
                 {
@@ -101,15 +80,6 @@ namespace WebCineMVC.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Salas");
-                });
-
-            modelBuilder.Entity("WebCineMVC.Models.Compra", b =>
-                {
-                    b.HasOne("WebCineMVC.Models.Funcion", "Funcion")
-                        .WithMany()
-                        .HasForeignKey("FuncionId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("WebCineMVC.Models.Funcion", b =>

@@ -10,22 +10,23 @@ using WebCineMVC.Models;
 
 namespace WebCineMVC.Controllers
 {
-    public class SalasController : Controller
+    public class ComprasController : Controller
     {
         private readonly CineContext _context;
 
-        public SalasController(CineContext context)
+        public ComprasController(CineContext context)
         {
             _context = context;
         }
 
-        // GET: Salas
+        // GET: Compras
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Salas.ToListAsync());
+            var cineContext = _context.Compras.Include(c => c.Funcion);
+            return View(await cineContext.ToListAsync());
         }
 
-        // GET: Salas/Details/5
+        // GET: Compras/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -33,39 +34,43 @@ namespace WebCineMVC.Controllers
                 return NotFound();
             }
 
-            var sala = await _context.Salas
+            var compra = await _context.Compras
+                .Include(c => c.Funcion)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (sala == null)
+            if (compra == null)
             {
                 return NotFound();
             }
 
-            return View(sala);
+            return View(compra);
         }
 
-        // GET: Salas/Create
+        // GET: Compras/Create
         public IActionResult Create()
         {
+            ViewData["FuncionId"] = new SelectList(_context.Funciones, "Id", "Id");
             return View();
         }
 
-        // POST: Salas/Create
+        // POST: Compras/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Asientos,Numero")] Sala sala)
+        public async Task<IActionResult> Create([Bind("Id,Dni,FuncionId,CantidadDeEntradas")] Compra compra)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(sala);
+                _context.Add(compra);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(sala);
+            ViewData["FuncionId"] = new SelectList(_context.Funciones, "Id", "Id", compra.FuncionId);
+            return View(compra);
         }
 
-        // GET: Salas/Edit/5
+        /* NO NECESITAMOS UPDATE NI EDIT 
+        // GET: Compras/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -73,22 +78,23 @@ namespace WebCineMVC.Controllers
                 return NotFound();
             }
 
-            var sala = await _context.Salas.FindAsync(id);
-            if (sala == null)
+            var compra = await _context.Compras.FindAsync(id);
+            if (compra == null)
             {
                 return NotFound();
             }
-            return View(sala);
+            ViewData["FuncionId"] = new SelectList(_context.Funciones, "Id", "Id", compra.FuncionId);
+            return View(compra);
         }
 
-        // POST: Salas/Edit/5
+        // POST: Compras/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Asientos,Numero")] Sala sala)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Dni,FuncionId,CantidadDeEntradas")] Compra compra)
         {
-            if (id != sala.Id)
+            if (id != compra.Id)
             {
                 return NotFound();
             }
@@ -97,12 +103,12 @@ namespace WebCineMVC.Controllers
             {
                 try
                 {
-                    _context.Update(sala);
+                    _context.Update(compra);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!SalaExists(sala.Id))
+                    if (!CompraExists(compra.Id))
                     {
                         return NotFound();
                     }
@@ -113,10 +119,14 @@ namespace WebCineMVC.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(sala);
-        }
+            ViewData["FuncionId"] = new SelectList(_context.Funciones, "Id", "Id", compra.FuncionId);
+            return View(compra);
+        } */
 
-        // GET: Salas/Delete/5
+        // GET: Compras/Delete/5
+
+         //Nuestra clase compra no necesita Delete ni Update
+         /*
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -124,30 +134,31 @@ namespace WebCineMVC.Controllers
                 return NotFound();
             }
 
-            var sala = await _context.Salas
+            var compra = await _context.Compras
+                .Include(c => c.Funcion)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (sala == null)
+            if (compra == null)
             {
                 return NotFound();
             }
 
-            return View(sala);
+            return View(compra);
         }
 
-        // POST: Salas/Delete/5
+        // POST: Compras/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var sala = await _context.Salas.FindAsync(id);
-            _context.Salas.Remove(sala);
+            var compra = await _context.Compras.FindAsync(id);
+            _context.Compras.Remove(compra);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
-        }
+        } */
 
-        private bool SalaExists(int id)
+        private bool CompraExists(int id)
         {
-            return _context.Salas.Any(e => e.Id == id);
+            return _context.Compras.Any(e => e.Id == id);
         }
     }
 }

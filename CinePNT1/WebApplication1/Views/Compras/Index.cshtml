@@ -1,4 +1,4 @@
-﻿@model IEnumerable<WebCineMVC.Models.Sala>
+﻿@model IEnumerable<WebCineMVC.Models.Compra>
 
 @{
     ViewData["Title"] = "Index";
@@ -13,10 +13,13 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Asientos)
+                @Html.DisplayNameFor(model => model.Dni)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Numero)
+                @Html.DisplayNameFor(model => model.Funcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CantidadDeEntradas)
             </th>
             <th></th>
         </tr>
@@ -25,10 +28,13 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Asientos)
+                @Html.DisplayFor(modelItem => item.Dni)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Numero)
+                @Html.DisplayFor(modelItem => item.Funcion.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CantidadDeEntradas)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
