@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -71,6 +72,12 @@ namespace WebCineMVC.Controllers
                 //Al atributo "TicketsDisponibles" de la clase Funcion asignarle el atributo 
                 //capacidad de la clase sala. A traves del atributo SalaId, buscamos el atributo de la 
                 //capacidad de la sala.
+
+
+                    var salas = _context.Salas;
+                    var sala = salas.Find(funcion.SalaId);
+                    funcion.TicketsDisponibles = sala.Asientos;
+                
                 _context.Add(funcion);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -277,6 +284,16 @@ namespace WebCineMVC.Controllers
             return selectList;
 
         }
+
+        // Preguntar a Miriam si va en controller o en modelo
+        //public class RestrictedDate : ValidationAttribute
+        //{
+        //    public override bool IsValid(object date)
+        //    {
+        //        DateTime fecha = (DateTime)date;
+        //        return fecha >= DateTime.Now;
+        //    }
+        //}
 
     }
 }
