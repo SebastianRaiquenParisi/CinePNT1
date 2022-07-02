@@ -17,5 +17,8 @@ namespace WebCineMVC.Models
         [Display(Name = "Pelicula")]
         public int PeliculaId { get; set; }
         public Pelicula Pelicula { get; set; }
+
+
+
     }
 }
