@@ -18,6 +18,9 @@ namespace WebCineMVC.Models
         public int PeliculaId { get; set; }
         public Pelicula Pelicula { get; set; }
 
+        [Display(Name = "Tickets disponibles")]
+        public int TicketsDisponibles { get; set; }
+
 
 
     }

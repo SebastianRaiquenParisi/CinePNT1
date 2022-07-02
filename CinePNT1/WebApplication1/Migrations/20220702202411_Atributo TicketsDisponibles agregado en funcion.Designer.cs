@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebCineMVC;
 
 namespace WebCineMVC.Migrations
 {
     [DbContext(typeof(CineContext))]
-    partial class CineContextModelSnapshot : ModelSnapshot
+    [Migration("20220702202411_Atributo TicketsDisponibles agregado en funcion")]
+    partial class AtributoTicketsDisponiblesagregadoenfuncion
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
