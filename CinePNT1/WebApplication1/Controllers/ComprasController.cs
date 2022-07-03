@@ -61,12 +61,23 @@ namespace WebCineMVC.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(compra);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                var funciones = _context.Funciones;
+                var funcion = funciones.Find(compra.FuncionId);
+                if (validarEntradasDisponibles(funcion.TicketsDisponibles, compra.CantidadDeEntradas))
+                {
+                    funcion.actualizarTickets(compra.CantidadDeEntradas);
+                    _context.Add(compra);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+                                
             }
             ViewData["FuncionId"] = new SelectList(_context.Funciones, "Id", "Id", compra.FuncionId);
             return View(compra);
+        }
+
+        private bool validarEntradasDisponibles(int ticketsDisponibles, int cantidadEntradas) {
+            return cantidadEntradas <= ticketsDisponibles;
         }
 
         /* NO NECESITAMOS UPDATE NI EDIT 
@@ -125,36 +136,36 @@ namespace WebCineMVC.Controllers
 
         // GET: Compras/Delete/5
 
-         //Nuestra clase compra no necesita Delete ni Update
-         /*
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
+        //Nuestra clase compra no necesita Delete ni Update
+        /*
+       public async Task<IActionResult> Delete(int? id)
+       {
+           if (id == null)
+           {
+               return NotFound();
+           }
 
-            var compra = await _context.Compras
-                .Include(c => c.Funcion)
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (compra == null)
-            {
-                return NotFound();
-            }
+           var compra = await _context.Compras
+               .Include(c => c.Funcion)
+               .FirstOrDefaultAsync(m => m.Id == id);
+           if (compra == null)
+           {
+               return NotFound();
+           }
 
-            return View(compra);
-        }
+           return View(compra);
+       }
 
-        // POST: Compras/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var compra = await _context.Compras.FindAsync(id);
-            _context.Compras.Remove(compra);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        } */
+       // POST: Compras/Delete/5
+       [HttpPost, ActionName("Delete")]
+       [ValidateAntiForgeryToken]
+       public async Task<IActionResult> DeleteConfirmed(int id)
+       {
+           var compra = await _context.Compras.FindAsync(id);
+           _context.Compras.Remove(compra);
+           await _context.SaveChangesAsync();
+           return RedirectToAction(nameof(Index));
+       } */
 
         private bool CompraExists(int id)
         {

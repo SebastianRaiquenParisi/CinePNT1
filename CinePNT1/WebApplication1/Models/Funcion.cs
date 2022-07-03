@@ -32,5 +32,9 @@ namespace WebCineMVC.Models
             }
         }
 
+        public void actualizarTickets(int cantidadDeTickets) {
+            TicketsDisponibles -= cantidadDeTickets;
+        }
+
     }
 }
