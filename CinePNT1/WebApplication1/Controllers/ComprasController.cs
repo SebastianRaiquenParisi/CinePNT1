@@ -20,10 +20,14 @@ namespace WebCineMVC.Controllers
         }
 
         // GET: Compras
-        public async Task<IActionResult> Index()
+        public  IActionResult CompraFinalizada()
         {
-            var cineContext = _context.Compras.Include(c => c.Funcion);
-            return View(await cineContext.ToListAsync());
+            var compra = _context.Compras.OrderByDescending(c => c.Id).FirstOrDefault();
+            var funcion = _context.Funciones.Find(compra.FuncionId);
+            var pelicula = _context.Peliculas.Find(funcion.PeliculaId);
+            ViewData["Pelicula"] = pelicula.Nombre;
+            ViewData["Fecha"] = funcion.Fecha.ToString();
+            return View(compra);
         }
 
         // GET: Compras/Details/5
@@ -34,7 +38,7 @@ namespace WebCineMVC.Controllers
                 return NotFound();
             }
 
-            var compra = await _context.Compras
+                var compra = await _context.Compras
                 .Include(c => c.Funcion)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (compra == null)
@@ -68,11 +72,16 @@ namespace WebCineMVC.Controllers
                     funcion.actualizarTickets(compra.CantidadDeEntradas);
                     _context.Add(compra);
                     await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));
+                    return RedirectToAction(nameof(CompraFinalizada));
+                }
+                else {
+                    ViewData["ErrorTicketsInsuficientes"] = "No hay suficientes entradas para procesar tu pedido";
+                    ViewData["FuncionId"] = new SelectList(_context.Funciones, "Id", "Id");
+                    return View();
                 }
                                 
             }
-            ViewData["FuncionId"] = new SelectList(_context.Funciones, "Id", "Id", compra.FuncionId);
+           ViewData["FuncionId"] = new SelectList(_context.Funciones, "Id", "Id", compra.FuncionId);
             return View(compra);
         }
 
