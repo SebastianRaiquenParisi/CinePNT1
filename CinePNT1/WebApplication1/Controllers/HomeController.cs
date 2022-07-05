@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -6,21 +7,43 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using WebApplication1.Models;
+using WebCineMVC;
+using WebCineMVC.Models;
 
 namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        //private readonly ILogger<HomeController> _logger;
+        private readonly CineContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(CineContext context)
         {
-            _logger = logger;
+            _context = context;
         }
+
+        //public HomeController(ILogger<HomeController> logger)
+        //{
+        //    _logger = logger;
+        //}
 
         public IActionResult Index()
         {
+            //Aca usaremos el metodo para listar las peliculas
+            ViewData["PeliculaId"] = CrearSelectListPeliculas(_context.Peliculas);
             return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Index(int id)
+        {
+            if (ModelState.IsValid)
+            {
+                
+                return RedirectToAction("ActionResult", "Compras", id);
+            }
+            return View(id);
         }
 
         public IActionResult Privacy()
@@ -33,5 +56,26 @@ namespace WebApplication1.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IEnumerable<SelectListItem> CrearSelectListPeliculas(IEnumerable<Pelicula> list)
+        {
+            List<SelectListItem> selectList = new List<SelectListItem>();
+
+            foreach (Pelicula pelicula in list)
+            {
+                SelectListItem selectItem = new SelectListItem
+                {
+                    Text = pelicula.Nombre,
+                    Value = pelicula.Id.ToString(),
+                    Selected = false
+                };
+                selectList.Add(selectItem);
+            }
+
+
+            return selectList;
+        }
+
+
     }
 }

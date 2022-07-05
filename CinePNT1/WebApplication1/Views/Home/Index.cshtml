@@ -1,14 +1,21 @@
-﻿
+﻿@model WebCineMVC.Models.Pelicula
 @{
     ViewData["Title"] = "Inicio";
 }
 <body>
     <div class="text-center">
-        <h1 class="display-1">Bienvenidos a Cinema Ort</h1><br/>
+        <h1 class="display-1">Bienvenidos a Cinema Ort</h1><br /><br />
         <h3 class="display-4">Elige tu película</h3><br /><br />
     </div>
 
     <form class="form-control-file">
-        <label class="display-2">Star Wars</label>
+        <div class="form-group">
+            @*<label class="control-label">Selecciona tu pelicula</label>*@
+            <select asp-for="Id" class="form-control" asp-items="ViewBag.PeliculaId"></select>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Aceptar" class="btn btn-primary" />
+            
+        </div>
     </form>
 </body>
