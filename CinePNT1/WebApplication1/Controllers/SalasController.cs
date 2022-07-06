@@ -58,9 +58,12 @@ namespace WebCineMVC.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(sala);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                if (!NumeroSalaExistente(sala.Numero))
+                {
+                    _context.Add(sala);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
             }
             return View(sala);
         }
@@ -148,6 +151,26 @@ namespace WebCineMVC.Controllers
         private bool SalaExists(int id)
         {
             return _context.Salas.Any(e => e.Id == id);
+        }
+
+        // Verifica que no exista una sala con el mismo número
+        private bool NumeroSalaExistente(int numero)
+        {
+            bool Existe = false;
+            // consulto en la base de datos si hay una sala con el mismo número que llega por parámetro
+            var NumeroSala = from sala in _context.Salas
+                             where sala.Numero == numero
+                             select sala;
+            // Esto pide que lo que hay adentro de NumeroSala lo guarde en item, pero no pude hacerlo sin foreach
+            foreach (var item in NumeroSala)
+            {
+                if (item.Numero == numero)
+                {
+                    Existe = true;
+                }
+            }
+            
+            return Existe;
         }
     }
 }

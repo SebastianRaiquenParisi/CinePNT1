@@ -1,8 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Sendito\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Sendito\\.nuget\\packages"
+      "C:\\Users\\matia\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\matia\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ]
   }
 }
