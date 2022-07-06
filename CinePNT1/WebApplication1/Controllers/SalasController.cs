@@ -156,21 +156,8 @@ namespace WebCineMVC.Controllers
         // Verifica que no exista una sala con el mismo número
         private bool NumeroSalaExistente(int numero)
         {
-            bool Existe = false;
-            // consulto en la base de datos si hay una sala con el mismo número que llega por parámetro
-            var NumeroSala = from sala in _context.Salas
-                             where sala.Numero == numero
-                             select sala;
-            // Esto pide que lo que hay adentro de NumeroSala lo guarde en item, pero no pude hacerlo sin foreach
-            foreach (var item in NumeroSala)
-            {
-                if (item.Numero == numero)
-                {
-                    Existe = true;
-                }
-            }
-            
-            return Existe;
+            // Pregunta si cualquier elemento de salas tiene el mismo número que el parametro que le llega
+            return _context.Salas.Any(e => e.Numero == numero);
         }
     }
 }
