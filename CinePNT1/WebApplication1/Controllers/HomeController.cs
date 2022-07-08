@@ -31,19 +31,18 @@ namespace WebApplication1.Controllers
         {
             //Aca usaremos el metodo para listar las peliculas
             ViewData["PeliculaId"] = CrearSelectListPeliculas(_context.Peliculas);
+            
             return View();
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Index(int id)
+        //[ValidateAntiForgeryToken]
+        public IActionResult Index(int peli)
         {
-            if (ModelState.IsValid)
-            {
-                
-                return RedirectToAction("ActionResult", "Compras", id);
-            }
-            return View(id);
+
+            //var idDePeli = await _context.Funciones.Where(f => f.PeliculaId == peliId).FirstOrDefault(); 
+            TempData["PeliculaHome"] = peli;
+            return RedirectToAction("Create","Compras");
         }
 
         public IActionResult Privacy()

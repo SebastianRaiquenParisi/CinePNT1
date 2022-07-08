@@ -13,11 +13,12 @@ namespace WebCineMVC.Controllers
     public class ComprasController : Controller
     {
         private readonly CineContext _context;
+       
 
         public ComprasController(CineContext context)
         {
             _context = context;
-        }
+         }
 
         // GET: Compras
         public  IActionResult CompraFinalizada()
@@ -52,7 +53,15 @@ namespace WebCineMVC.Controllers
         // GET: Compras/Create
         public IActionResult Create()
         {
-            ViewData["FuncionId"] = new SelectList(_context.Funciones, "Id", "Id");
+            string name;
+
+            if (TempData.ContainsKey("PeliculaHome"))
+                name = TempData["PeliculaHome"] as string;
+
+            TempData.Keep("name");
+
+            string peli = TempData["PeliculaHome"].ToString();
+            ViewData["FuncionId"] = CrearSelectListFunciones(_context.Funciones,peli);
             return View();
         }
 
@@ -60,7 +69,7 @@ namespace WebCineMVC.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Dni,FuncionId,CantidadDeEntradas")] Compra compra)
         {
             if (ModelState.IsValid)
@@ -76,18 +85,44 @@ namespace WebCineMVC.Controllers
                 }
                 else {
                     ViewData["ErrorTicketsInsuficientes"] = "No hay suficientes entradas para procesar tu pedido";
-                    ViewData["FuncionId"] = new SelectList(_context.Funciones, "Id", "Id");
+                    //ViewData["FuncionId"] = new SelectList(_context.Funciones, "Id", "Id");
                     return View();
                 }
                                 
             }
-           ViewData["FuncionId"] = new SelectList(_context.Funciones, "Id", "Id", compra.FuncionId);
-            return View(compra);
+            
+            return RedirectToAction(nameof(CompraFinalizada));
         }
 
         private bool validarEntradasDisponibles(int ticketsDisponibles, int cantidadEntradas) {
             return cantidadEntradas <= ticketsDisponibles;
         }
+
+        public IEnumerable<SelectListItem> CrearSelectListFunciones(IEnumerable<Funcion> funciones, string peli)
+        {
+            List<SelectListItem> selectList = new List<SelectListItem>();
+            
+            foreach (Funcion funcion in funciones)
+            {
+
+                if (funcion.PeliculaId.ToString().Equals(peli))
+                {
+                    {
+                        SelectListItem selectItem = new SelectListItem
+                        {
+                            Text = funcion.Fecha.ToString(),
+                            Value = funcion.Id.ToString(),
+                            Selected = false
+                        };
+                        selectList.Add(selectItem);
+                    }
+                }
+            }
+
+
+            return selectList;
+        }
+
 
         /* NO NECESITAMOS UPDATE NI EDIT 
         // GET: Compras/Edit/5
