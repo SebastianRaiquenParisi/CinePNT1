@@ -36,8 +36,8 @@ namespace WebCineMVC.Models
             TicketsDisponibles -= cantidadDeTickets;
         }
 
-        public string getPelicula() {
-            return Pelicula.Nombre;
+        public String getPelicula() {
+            return Pelicula.Nombre.ToString();
         }
 
     }

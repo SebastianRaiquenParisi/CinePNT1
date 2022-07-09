@@ -15,9 +15,10 @@ namespace WebCineMVC.Models
         [Required(ErrorMessage = "Debe completar el DNI")]
         [RegularExpression("^[\\s\\S]{7,8}$", ErrorMessage = " El número de DNI no es válido.")]
         public String Dni { get; set; }
-
-        public int FuncionId { get; set; }
+        
         [Required(ErrorMessage = "Debe elegir una función")]
+        public int FuncionId { get; set; }
+     
         public Funcion Funcion { get; set; }
 
         [Required(ErrorMessage = "Debe seleccionar al menos una entrada")]

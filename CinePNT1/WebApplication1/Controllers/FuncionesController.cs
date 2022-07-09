@@ -74,9 +74,9 @@ namespace WebCineMVC.Controllers
                 //capacidad de la sala.
 
 
-                    var salas = _context.Salas;
-                    var sala = salas.Find(funcion.SalaId);
-                    funcion.TicketsDisponibles = sala.Asientos;
+                var salas = _context.Salas;
+                var sala = salas.Find(funcion.SalaId);
+                funcion.TicketsDisponibles = sala.Asientos;
                 
                 _context.Add(funcion);
                 await _context.SaveChangesAsync();
