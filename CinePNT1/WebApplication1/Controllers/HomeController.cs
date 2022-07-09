@@ -41,8 +41,8 @@ namespace WebApplication1.Controllers
         {
 
             //var idDePeli = await _context.Funciones.Where(f => f.PeliculaId == peliId).FirstOrDefault(); 
-            TempData["PeliculaHome"] = peli;
-            return RedirectToAction("Create","Compras");
+            //TempData["PeliculaHome"] = peli;
+            return RedirectToAction("Create","Compras", new {numeroPeli = peli});
         }
 
         public IActionResult Privacy()
