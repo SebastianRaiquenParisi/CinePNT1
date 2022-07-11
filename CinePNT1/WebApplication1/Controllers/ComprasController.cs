@@ -53,7 +53,6 @@ namespace WebCineMVC.Controllers
         // GET: Compras/Create
         public IActionResult Create(int? numeroPeli)
         {
-       
             ViewData["FuncionId"] = CrearSelectListFunciones(_context.Funciones, numeroPeli.ToString());
             return View();
         }
@@ -81,9 +80,8 @@ namespace WebCineMVC.Controllers
                 }
                 else {
                     ViewData["ErrorTicketsInsuficientes"] = "No hay suficientes entradas para procesar tu pedido";
-
-                    return RedirectToAction("Create", new { id = funcion.PeliculaId });
-
+                    ViewData["FuncionId"] = CrearSelectListFunciones(_context.Funciones, funcion.PeliculaId.ToString());
+                    return View();
                 }
 
             }
@@ -95,6 +93,7 @@ namespace WebCineMVC.Controllers
             return cantidadEntradas <= ticketsDisponibles;
         }
 
+        //Con este metodo, logramos listar las fechas de las funciones correspondientes a la pelicula seleccionada
         public IEnumerable<SelectListItem> CrearSelectListFunciones(IEnumerable<Funcion> funciones, string peli)
         {
             List<SelectListItem> selectList = new List<SelectListItem>();
@@ -119,94 +118,6 @@ namespace WebCineMVC.Controllers
 
             return selectList;
         }
-
-
-        /* NO NECESITAMOS UPDATE NI EDIT 
-        // GET: Compras/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var compra = await _context.Compras.FindAsync(id);
-            if (compra == null)
-            {
-                return NotFound();
-            }
-            ViewData["FuncionId"] = new SelectList(_context.Funciones, "Id", "Id", compra.FuncionId);
-            return View(compra);
-        }
-
-        // POST: Compras/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Dni,FuncionId,CantidadDeEntradas")] Compra compra)
-        {
-            if (id != compra.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(compra);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!CompraExists(compra.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["FuncionId"] = new SelectList(_context.Funciones, "Id", "Id", compra.FuncionId);
-            return View(compra);
-        } */
-
-        // GET: Compras/Delete/5
-
-        //Nuestra clase compra no necesita Delete ni Update
-        /*
-       public async Task<IActionResult> Delete(int? id)
-       {
-           if (id == null)
-           {
-               return NotFound();
-           }
-
-           var compra = await _context.Compras
-               .Include(c => c.Funcion)
-               .FirstOrDefaultAsync(m => m.Id == id);
-           if (compra == null)
-           {
-               return NotFound();
-           }
-
-           return View(compra);
-       }
-
-       // POST: Compras/Delete/5
-       [HttpPost, ActionName("Delete")]
-       [ValidateAntiForgeryToken]
-       public async Task<IActionResult> DeleteConfirmed(int id)
-       {
-           var compra = await _context.Compras.FindAsync(id);
-           _context.Compras.Remove(compra);
-           await _context.SaveChangesAsync();
-           return RedirectToAction(nameof(Index));
-       } */
 
         private bool CompraExists(int id)
         {

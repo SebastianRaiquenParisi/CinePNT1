@@ -50,10 +50,10 @@ namespace WebCineMVC.Controllers
         // GET: Funciones/Create
         public IActionResult Create()
         {
-            //ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "Id", "Id");
-            //ViewData["SalaId"] = new SelectList(_context.Salas, "Id", "Id");
-            ViewData["PeliculaId"] = CrearSelectListPeliculasCreate(_context.Peliculas);
-            ViewData["SalaId"] = CrearSelectListSalasCreate(_context.Salas);
+            ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "Id", "Nombre");
+            ViewData["SalaId"] = new SelectList(_context.Salas, "Id", "Numero");
+            //ViewData["PeliculaId"] = CrearSelectListPeliculasCreate(_context.Peliculas);
+            //ViewData["SalaId"] = CrearSelectListSalasCreate(_context.Salas);
 
             return View();
         }
@@ -69,21 +69,15 @@ namespace WebCineMVC.Controllers
         {
             if (ModelState.IsValid)
             {
-                //Al atributo "TicketsDisponibles" de la clase Funcion asignarle el atributo 
-                //capacidad de la clase sala. A traves del atributo SalaId, buscamos el atributo de la 
-                //capacidad de la sala.
-
-
                 var salas = _context.Salas;
                 var sala = salas.Find(funcion.SalaId);
                 funcion.TicketsDisponibles = sala.Asientos;
-                
                 _context.Add(funcion);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "Id", "Id", funcion.PeliculaId);
-            ViewData["SalaId"] = new SelectList(_context.Salas, "Id", "Id", funcion.SalaId);
+            ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "Id", "Nombre",funcion.PeliculaId);
+            ViewData["SalaId"] = new SelectList(_context.Salas, "Id", "Numero",funcion.SalaId);
             return View(funcion);
         }
 
@@ -100,7 +94,7 @@ namespace WebCineMVC.Controllers
             {
                 return NotFound();
             }
-            ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "Id", "Id", funcion.PeliculaId);
+            ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "Id", "Nombre", funcion.PeliculaId);
             ViewData["SalaId"] = new SelectList(_context.Salas, "Id", "Id", funcion.SalaId);
             return View(funcion);
         }
@@ -178,122 +172,9 @@ namespace WebCineMVC.Controllers
             return _context.Funciones.Any(e => e.Id == id);
         }
 
-        public IEnumerable<SelectListItem> CrearSelectListPeliculasCreate(IEnumerable<Pelicula> list)
-        {
-            List<SelectListItem> selectList = new List<SelectListItem>();
+        
 
-            foreach (Pelicula peli in list)
-            {
-                SelectListItem selectItem = new SelectListItem
-                {
-                    Text = peli.Nombre,
-                    Value = peli.Id.ToString(),
-                    Selected = false
-                };
-                selectList.Add(selectItem);
-            }
-
-
-            return selectList;
-        }
-
-        public IEnumerable<SelectListItem> CrearSelectListSalasCreate(IEnumerable<Sala> list)
-        {
-            List<SelectListItem> selectList = new List<SelectListItem>();
-
-            foreach (Sala sala in list)
-            {
-                SelectListItem selectItem = new SelectListItem
-                {
-                    Text = sala.Numero.ToString(),
-                    Value = sala.Id.ToString(),
-                    Selected = false
-                };
-                selectList.Add(selectItem);
-            }
-
-
-            return selectList;
-        }
-
-
-        public IEnumerable<SelectListItem> CrearSelectListPeliculasUpdate(IEnumerable<Pelicula> list, int id)
-        {
-            List<SelectListItem> selectList = new List<SelectListItem>();
-
-            foreach (Pelicula peli in list)
-            {
-                SelectListItem selectItem;
-                if (peli.Id == id)
-                {
-                    selectItem = new SelectListItem
-                    {
-                        Text = peli.Nombre,
-                        Value = peli.Id.ToString(),
-                        Selected = true
-                    };
-
-                }
-                else
-                {
-                    selectItem = new SelectListItem
-                    {
-                        Text = peli.Nombre,
-                        Value = peli.Id.ToString(),
-                        Selected = false
-                    };
-                }
-                selectList.Add(selectItem);
-            }
-
-
-            return selectList;
-
-        }
-
-        public IEnumerable<SelectListItem> CrearSelectListSalasUpdate(IEnumerable<Sala> list, int id)
-        {
-            List<SelectListItem> selectList = new List<SelectListItem>();
-
-            foreach (Sala sala in list)
-            {
-                SelectListItem selectItem;
-                if (sala.Id == id)
-                {
-                    selectItem = new SelectListItem
-                    {
-                        Text = sala.Numero.ToString(),
-                        Value = sala.Id.ToString(),
-                        Selected = true
-                    };
-
-                }
-                else
-                {
-                    selectItem = new SelectListItem
-                    {
-                        Text = sala.Numero.ToString(),
-                        Value = sala.Id.ToString(),
-                        Selected = false
-                    };
-                }
-                selectList.Add(selectItem);
-            }
-
-
-            return selectList;
-
-        }
-
-        // Preguntar a Miriam si va en controller o en modelo
-        //public class RestrictedDate : ValidationAttribute
-        //{
-        //    public override bool IsValid(object date)
-        //    {
-        //        DateTime fecha = (DateTime)date;
-        //        return fecha >= DateTime.Now;
-        //    }
-        //}
+        
 
     }
 }

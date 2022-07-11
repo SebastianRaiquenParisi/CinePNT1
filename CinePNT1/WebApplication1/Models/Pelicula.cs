@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Http;
 
 namespace WebCineMVC.Models
 {
@@ -13,6 +15,15 @@ namespace WebCineMVC.Models
         [Range(1,300, ErrorMessage = "Error, rango de duración en minutos: 1-300")]
         public double Duracion { get; set; }
 
-        //public List<Funcion> Funciones { get; set; }
+        [NotMapped]
+        [Display(Name = "Pelicula:")]
+        public IFormFile PhotoAvatar { get; set; }
+
+        public string ImageName { get; set; }
+
+        public byte[] PhotoFile { get; set; }
+
+        public string ImageMimeType { get; set; }
+
     }
 }

@@ -14,7 +14,7 @@ namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
-        //private readonly ILogger<HomeController> _logger;
+        
         private readonly CineContext _context;
 
         public HomeController(CineContext context)
@@ -22,26 +22,19 @@ namespace WebApplication1.Controllers
             _context = context;
         }
 
-        //public HomeController(ILogger<HomeController> logger)
-        //{
-        //    _logger = logger;
-        //}
-
+        
         public IActionResult Index()
         {
             //Aca usaremos el metodo para listar las peliculas
-            ViewData["PeliculaId"] = CrearSelectListPeliculas(_context.Peliculas);
-            
+            ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "Id", "Nombre");
             return View();
         }
 
         [HttpPost]
-        //[ValidateAntiForgeryToken]
+        [ValidateAntiForgeryToken]
         public IActionResult Index(int peli)
         {
-
-            //var idDePeli = await _context.Funciones.Where(f => f.PeliculaId == peliId).FirstOrDefault(); 
-            //TempData["PeliculaHome"] = peli;
+            //Redireccionamos el id de pelicula elegida al controller de compras
             return RedirectToAction("Create","Compras", new {numeroPeli = peli});
         }
 
@@ -55,26 +48,6 @@ namespace WebApplication1.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
-        public IEnumerable<SelectListItem> CrearSelectListPeliculas(IEnumerable<Pelicula> list)
-        {
-            List<SelectListItem> selectList = new List<SelectListItem>();
-
-            foreach (Pelicula pelicula in list)
-            {
-                SelectListItem selectItem = new SelectListItem
-                {
-                    Text = pelicula.Nombre,
-                    Value = pelicula.Id.ToString(),
-                    Selected = false
-                };
-                selectList.Add(selectItem);
-            }
-
-
-            return selectList;
-        }
-
 
     }
 }

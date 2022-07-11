@@ -1,16 +1,27 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+nav {
+text-align: right;
+}
+
+.Titulo {
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    color: palegoldenrod;
+}
+
 a.navbar-brand {
+  font-family:'Comic Sans MS';
   white-space: normal;
-  text-align: center;
   word-break: break-all;
+  
 }
 
 /* Provide sufficient contrast against white background */
-a {
+/*a {
   color: #0366d6;
-}
+}*/
 
 .btn-primary {
   color: #fff;
@@ -19,9 +30,17 @@ a {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    color: #fff;
+    /*color: #fff;
     background-color: #1b6ec2;
-    border-color: #1861ac;
+    border-color: #1861ac;*/
+    background-color:transparent;
+    border-color: aqua;
+    color:bisque;
+
+}
+
+.nav-item {
+    font-size: 25px;
 }
 
 /* Sticky footer styles
@@ -54,14 +73,17 @@ button.accept-policy {
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  position: relative;
+  /*position: relative;*/
   min-height: 100%;
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-  
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-image: url("/images/57395-cine.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
 }
 .footer {
   position: absolute;
