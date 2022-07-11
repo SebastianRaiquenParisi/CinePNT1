@@ -4,44 +4,74 @@
     ViewData["Title"] = "Funciones";
 }
 
-<h1>Funciones</h1>
+<head>
 
-<p>
-    <a asp-action="Create">Agregar nueva función</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Fecha)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Sala)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pelicula)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Fecha)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Sala.Id)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Pelicula.Nombre)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Borrar</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+
+</head>
+
+<div class="Titulo">
+    Función
+</div>
+
+<<form asp-action="Create">
+    <div class="form-group">
+        <input type="submit" asp-action="Create" value="Agregar nueva función" class="btn btn-success btn-lg" />
+    </div>
+</form>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Fecha)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Sala)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Pelicula)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Fecha)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Sala.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Pelicula.Nombre)
+                    </td>
+                    <td>
+                        @*<a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+        <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
+        <a asp-action="Delete" asp-route-id="@item.Id">Borrar</a>*@
+                   <div class="row">
+                        <form asp-action="Edit" asp-route-id="@item.Id" >
+                            <div class="form-group col-md-2">
+                                <input type="submit" value="Editar" class="btn btn-warning btn-sm" />
+                            </div>
+                        </form>
+                        <form asp-action="Details" asp-route-id="@item.Id">
+                            <div class="form-group col-md-2">
+                                <input type="submit" value="Detalles" class="btn btn-info btn-sm" />
+                            </div>
+                        </form>
+                        <form asp-action="Delete" asp-route-id="@item.Id">
+                            <div class="form-group col-md-2">
+                                <input type="submit" value="Borrar" class="btn btn-danger btn-sm" />
+                            </div>
+                        </form> 
+                     </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+  

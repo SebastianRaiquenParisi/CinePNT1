@@ -8576,11 +8576,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sendito\\Desktop\\Analista de Sistemas\\1er Año\\2do Cuatrimestre\\PNT1\\CinePNT1\\CinePNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj",
+      "projectUniqueName": "C:\\Users\\Sendito\\Desktop\\Analista de Sistemas\\prueba\\CinePNT1\\CinePNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj",
       "projectName": "WebCineMVC",
-      "projectPath": "C:\\Users\\Sendito\\Desktop\\Analista de Sistemas\\1er Año\\2do Cuatrimestre\\PNT1\\CinePNT1\\CinePNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj",
+      "projectPath": "C:\\Users\\Sendito\\Desktop\\Analista de Sistemas\\prueba\\CinePNT1\\CinePNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj",
       "packagesPath": "C:\\Users\\Sendito\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sendito\\Desktop\\Analista de Sistemas\\1er Año\\2do Cuatrimestre\\PNT1\\CinePNT1\\CinePNT1\\CinePNT1\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\Sendito\\Desktop\\Analista de Sistemas\\prueba\\CinePNT1\\CinePNT1\\CinePNT1\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sendito\\AppData\\Roaming\\NuGet\\NuGet.Config",

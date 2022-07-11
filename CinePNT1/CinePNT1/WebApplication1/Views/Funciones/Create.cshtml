@@ -3,39 +3,57 @@
 @{
     ViewData["Title"] = "Crear nueva función";
 }
+<html>
+<head>
 
-<h1>Crear nueva función</h1>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+
+</head>
+
+<body>
+    <div class="Titulo">
+        Crear nueva funcion
+    </div>
 
 
-<hr />
-<div class="row">
-    <div class="col-md-4">
+    <div class="movieElect">
+        @*<div class="row">
+            <div class="col-md-4">*@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Fecha" class="control-label"></label>
+                <label class="subForms">Fecha</label>
                 <input asp-for="Fecha" class="form-control" />
                 <span asp-validation-for="Fecha" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="SalaId" class="control-label"></label>
-                <select asp-for="SalaId" class ="form-control" asp-items="ViewBag.SalaId"></select>
+                <label class="subForms">Sala</label>
+                <select asp-for="SalaId" class="form-control" asp-items="ViewBag.SalaId"></select>
             </div>
             <div class="form-group">
-                <label asp-for="PeliculaId" class="control-label"></label>
-                <select asp-for="PeliculaId" class ="form-control" asp-items="ViewBag.PeliculaId"></select>
+                <label class="subForms">Pelicula</label>
+                <select asp-for="PeliculaId" class="form-control" asp-items="ViewBag.PeliculaId"></select>
             </div>
             <div class="form-group">
                 <input type="submit" value="Crear" class="btn btn-primary" />
             </div>
         </form>
+        @*</div>*@
     </div>
-</div>
 
-<div>
-    <a asp-action="Index">Volver al menú principal</a>
-</div>
+    <form class="botonRetorno" asp-action="Index">   
+            <input type="submit" value="Volver al listado" class="btn btn-primary" />
+    </form>
+
+
+    @*<div>
+        <a asp-action="Index">Volver al menú principal</a>
+    </div>*@
+</body>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+
+</html>

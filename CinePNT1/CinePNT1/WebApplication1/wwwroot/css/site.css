@@ -1,4 +1,22 @@
-﻿
+﻿.subForms {
+    font-size: 30px;
+    color:brown;
+    font-family: Britannic;
+}
+
+table th {
+    font-size: 27px;
+    color: steelblue;
+    font-family: Britannic;
+}
+
+table td {
+    font-size: 20px;
+    color: steelblue;
+    font-family: Britannic;
+}
+
+
 /*Le damos estilo a la barra de navegación*/
 nav {
     margin-bottom: 6px;
@@ -40,7 +58,12 @@ font-family: Britannic;
 }
 
 .form-group {
-text-align: center;
+    text-align: center;
+}
+
+.botonRetorno {
+    text-align: center;
+    margin-right: 75px;
 }
 
 .Titulo {
@@ -62,6 +85,10 @@ text-align: center;
 /*a {
   color: #0366d6;
 }*/
+
+a:hover {
+    color: inherit;
+}
 
 .btn-primary {
   color: #fff;
@@ -112,22 +139,22 @@ button.accept-policy {
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  /*position: relative;*/
+  position: relative;
   min-height: 100%;
 }
 
 body {
     /* Margin bottom by footer height */
-    margin-bottom: 60px;
+    /*margin-bottom: 25px;*/
     background-image: url("/images/57395-cine.jpg");
     width: 100%;
     background-size: cover;
     background-position: center center;
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
-}
+/*.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;*/ /* Vertically center the text there */
+/*}*/

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5J8aVL+vpWCWBYMbNXzzojqmjULtXGiKG20vKhWJWt0W/qyD4b2Zo43HdVJH0nCpPYfB7KiNWgGCjis/9ETHQA==",
+  "dgSpecHash": "TkAtZZme4S/fR7MdrsVEyhuJfxH1aeoHjKrTjGVWGjgZb+Efpp8D3XADbCHP3qlMR7443ONIOitr54u2oVhBfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sendito\\Desktop\\Analista de Sistemas\\1er Año\\2do Cuatrimestre\\PNT1\\CinePNT1\\CinePNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj",
+  "projectFilePath": "C:\\Users\\Sendito\\Desktop\\Analista de Sistemas\\prueba\\CinePNT1\\CinePNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sendito\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Sendito\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.25\\microsoft.aspnetcore.jsonpatch.3.1.25.nupkg.sha512",
