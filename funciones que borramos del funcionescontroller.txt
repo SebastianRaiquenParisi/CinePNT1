@@ -1,0 +1,106 @@
+//public IEnumerable<SelectListItem> CrearSelectListPeliculasCreate(IEnumerable<Pelicula> list)
+        //{
+        //    List<SelectListItem> selectList = new List<SelectListItem>();
+
+        //    foreach (Pelicula peli in list)
+        //    {
+        //        SelectListItem selectItem = new SelectListItem
+        //        {
+        //            Text = peli.Nombre,
+        //            Value = peli.Id.ToString(),
+        //            Selected = false
+        //        };
+        //        selectList.Add(selectItem);
+        //    }
+
+
+        //    return selectList;
+        //}
+
+        //public IEnumerable<SelectListItem> CrearSelectListSalasCreate(IEnumerable<Sala> list)
+        //{
+        //    List<SelectListItem> selectList = new List<SelectListItem>();
+
+        //    foreach (Sala sala in list)
+        //    {
+        //        SelectListItem selectItem = new SelectListItem
+        //        {
+        //            Text = sala.Numero.ToString(),
+        //            Value = sala.Id.ToString(),
+        //            Selected = false
+        //        };
+        //        selectList.Add(selectItem);
+        //    }
+
+
+        //    return selectList;
+        //}
+
+
+        //public IEnumerable<SelectListItem> CrearSelectListPeliculasUpdate(IEnumerable<Pelicula> list, int id)
+        //{
+        //    List<SelectListItem> selectList = new List<SelectListItem>();
+
+        //    foreach (Pelicula peli in list)
+        //    {
+        //        SelectListItem selectItem;
+        //        if (peli.Id == id)
+        //        {
+        //            selectItem = new SelectListItem
+        //            {
+        //                Text = peli.Nombre,
+        //                Value = peli.Id.ToString(),
+        //                Selected = true
+        //            };
+
+        //        }
+        //        else
+        //        {
+        //            selectItem = new SelectListItem
+        //            {
+        //                Text = peli.Nombre,
+        //                Value = peli.Id.ToString(),
+        //                Selected = false
+        //            };
+        //        }
+        //        selectList.Add(selectItem);
+        //    }
+
+
+        //    return selectList;
+
+        //}
+
+        //public IEnumerable<SelectListItem> CrearSelectListSalasUpdate(IEnumerable<Sala> list, int id)
+        //{
+        //    List<SelectListItem> selectList = new List<SelectListItem>();
+
+        //    foreach (Sala sala in list)
+        //    {
+        //        SelectListItem selectItem;
+        //        if (sala.Id == id)
+        //        {
+        //            selectItem = new SelectListItem
+        //            {
+        //                Text = sala.Numero.ToString(),
+        //                Value = sala.Id.ToString(),
+        //                Selected = true
+        //            };
+
+        //        }
+        //        else
+        //        {
+        //            selectItem = new SelectListItem
+        //            {
+        //                Text = sala.Numero.ToString(),
+        //                Value = sala.Id.ToString(),
+        //                Selected = false
+        //            };
+        //        }
+        //        selectList.Add(selectItem);
+        //    }
+
+
+        //    return selectList;
+
+        //}

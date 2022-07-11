@@ -1,0 +1,42 @@
+﻿@model WebCineMVC.Models.Funcion
+
+@{
+    ViewData["Title"] = "Detalle de Función";
+}
+
+<h1>Detalle de Función</h1>
+
+<div>
+    
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Fecha)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Fecha)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Sala)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Sala.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pelicula)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pelicula.Nombre)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TicketsDisponibles)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TicketsDisponibles)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Editar</a> |
+    <a asp-action="Index">Volver al listado</a>
+</div>

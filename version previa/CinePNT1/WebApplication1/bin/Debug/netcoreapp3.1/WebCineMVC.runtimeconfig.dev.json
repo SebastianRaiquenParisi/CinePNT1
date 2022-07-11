@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Sendito\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Sendito\\.nuget\\packages"
+    ]
+  }
+}

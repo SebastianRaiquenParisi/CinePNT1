@@ -1,0 +1,412 @@
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.csproj.AssemblyReference.cache
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.AssemblyInfoInputs.cache
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.AssemblyInfo.cs
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.csproj.CoreCompileInputs.cache
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.MvcApplicationPartsAssemblyInfo.cache
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.RazorAssemblyInfo.cache
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.RazorAssemblyInfo.cs
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.json
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.exe
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.deps.json
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.runtimeconfig.json
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.runtimeconfig.dev.json
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.pdb
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.Views.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.Views.pdb
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebCineMVC.StaticWebAssets.Manifest.cache
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.TagHelpers.input.cache
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.TagHelpers.output.cache
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.RazorCoreGenerate.cache
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.RazorTargetAssemblyInfo.cache
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.RazorTargetAssemblyInfo.cs
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.Views.pdb
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.csproj.CopyComplete
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.dll
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.pdb
+D:\ORT_PNT1\proyectoPNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.genruntimeconfig.cache
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.exe
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.deps.json
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.runtimeconfig.json
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.runtimeconfig.dev.json
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.pdb
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.Views.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.Views.pdb
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.csproj.AssemblyReference.cache
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.AssemblyInfoInputs.cache
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.AssemblyInfo.cs
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.csproj.CoreCompileInputs.cache
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.MvcApplicationPartsAssemblyInfo.cache
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.RazorAssemblyInfo.cache
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.RazorAssemblyInfo.cs
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebCineMVC.StaticWebAssets.Manifest.cache
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebCineMVC.StaticWebAssets.xml
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebCineMVC.styles.css
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.TagHelpers.input.cache
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.TagHelpers.output.cache
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.RazorCoreGenerate.cache
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.RazorTargetAssemblyInfo.cache
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.RazorTargetAssemblyInfo.cs
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.Views.pdb
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.csproj.CopyComplete
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.pdb
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.genruntimeconfig.cache
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Peliculas\Create.cshtml.g.cs
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Peliculas\Delete.cshtml.g.cs
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Peliculas\Details.cshtml.g.cs
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Peliculas\Edit.cshtml.g.cs
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Peliculas\Index.cshtml.g.cs
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Salas\Create.cshtml.g.cs
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Salas\Delete.cshtml.g.cs
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Salas\Details.cshtml.g.cs
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Salas\Edit.cshtml.g.cs
+D:\Proyecto PNT Real NO FAKE\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Salas\Index.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.exe
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.deps.json
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.runtimeconfig.json
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.runtimeconfig.dev.json
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.pdb
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.Views.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\WebCineMVC.Views.pdb
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.csproj.AssemblyReference.cache
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.AssemblyInfoInputs.cache
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.AssemblyInfo.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.csproj.CoreCompileInputs.cache
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.RazorAssemblyInfo.cache
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.RazorAssemblyInfo.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebCineMVC.StaticWebAssets.Manifest.cache
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\staticwebassets\WebCineMVC.StaticWebAssets.xml
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebCineMVC.styles.css
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.TagHelpers.input.cache
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.TagHelpers.output.cache
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.RazorCoreGenerate.cache
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.RazorTargetAssemblyInfo.cache
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.RazorTargetAssemblyInfo.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.Views.pdb
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.csproj.CopyComplete
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.dll
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.pdb
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.genruntimeconfig.cache
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Funciones\Create.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Funciones\Delete.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Funciones\Details.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Funciones\Edit.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Funciones\Index.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Peliculas\Create.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Peliculas\Delete.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Peliculas\Details.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Peliculas\Edit.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Peliculas\Index.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Salas\Create.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Salas\Delete.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Salas\Details.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Salas\Edit.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Salas\Index.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Compras\Create.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Compras\Delete.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Compras\Details.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Compras\Edit.cshtml.g.cs
+C:\Users\Sendito\Desktop\Analista de Sistemas\1er Año\2do Cuatrimestre\PNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Compras\CompraFinalizada.cshtml.g.cs

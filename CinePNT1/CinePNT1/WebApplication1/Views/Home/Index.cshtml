@@ -1,0 +1,38 @@
+﻿@model WebCineMVC.Models.Funcion
+
+@{
+    ViewData["Title"] = "CinemaOrt";
+}
+
+<div class="Titulo">
+    <p>Bienvenidos a CinemaOrt</p>
+</div>
+
+
+<br /><br />
+<div class="movieElect">
+    @*<div class="row">
+        <div class="col-md-6">*@
+            <form asp-action="Index" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    @*<label asp-for="PeliculaId" class="control-label display-3 text-info"></label>*@
+                    <label class="homeTitulo">Selecciona tu pelicula</label>
+                    <hr />
+                    <select asp-for="PeliculaId" class="form-control" name="peli" asp-items="ViewBag.PeliculaId">
+                        <option selected="selected" name="peli">Seleccionar</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Comprar" class="btn btn-primary" />
+                </div>
+            </form>
+        @*</div>
+    </div>*@
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,50 @@
+﻿@model WebCineMVC.Models.Compra
+
+@{
+    ViewData["Title"] = "Compra finalizada";
+}
+
+<h1>¡¡Compra de entradas exitosa!!</h1>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Dni)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Funcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CantidadDeEntradas)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.Dni)
+            </td>
+            <td>
+                @ViewData["Pelicula"]
+            </td>
+
+            <td>
+                @Html.DisplayFor(model => model.CantidadDeEntradas)
+            </td>
+            <td>
+                @ViewData["Fecha"]
+             </td>
+
+        </tr>
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="Index" asp-controller="Home">Volver al menú principal</a>
+</div>
+
+
