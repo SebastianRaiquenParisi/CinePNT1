@@ -26,8 +26,8 @@ namespace WebCineMVC.Controllers
             var compra = _context.Compras.OrderByDescending(c => c.Id).FirstOrDefault();
             var funcion = _context.Funciones.Find(compra.FuncionId);
             var pelicula = _context.Peliculas.Find(funcion.PeliculaId);
-            ViewData["Pelicula"] = pelicula.Nombre;
             ViewData["Fecha"] = funcion.Fecha.ToString();
+            ViewData["PElegida"] = pelicula.Nombre;
             return View(compra);
         }
 

@@ -3,15 +3,13 @@
 @{
     ViewData["Title"] = "Crear nueva función";
 }
-<html>
-<head>
 
+<head>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-
 </head>
 
-<body>
+
     <div class="Titulo">
         Crear nueva funcion
     </div>
@@ -46,14 +44,9 @@
             <input type="submit" value="Volver al listado" class="btn btn-primary" />
     </form>
 
-
-    @*<div>
-        <a asp-action="Index">Volver al menú principal</a>
-    </div>*@
-</body>
-
+    
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
 
-</html>
+

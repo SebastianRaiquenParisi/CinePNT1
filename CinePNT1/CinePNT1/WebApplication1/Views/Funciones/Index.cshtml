@@ -4,12 +4,7 @@
     ViewData["Title"] = "Funciones";
 }
 
-<head>
-
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
-
-</head>
+ 
 
 <div class="Titulo">
     Función
@@ -49,26 +44,26 @@
                         @Html.DisplayFor(modelItem => item.Pelicula.Nombre)
                     </td>
                     <td>
-                        @*<a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-        <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
-        <a asp-action="Delete" asp-route-id="@item.Id">Borrar</a>*@
-                   <div class="row">
-                        <form asp-action="Edit" asp-route-id="@item.Id" >
-                            <div class="form-group col-md-2">
-                                <input type="submit" value="Editar" class="btn btn-warning btn-sm" />
-                            </div>
-                        </form>
-                        <form asp-action="Details" asp-route-id="@item.Id">
-                            <div class="form-group col-md-2">
-                                <input type="submit" value="Detalles" class="btn btn-info btn-sm" />
-                            </div>
-                        </form>
-                        <form asp-action="Delete" asp-route-id="@item.Id">
-                            <div class="form-group col-md-2">
-                                <input type="submit" value="Borrar" class="btn btn-danger btn-sm" />
-                            </div>
-                        </form> 
-                     </div>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Borrar</a>
+                   @*<div class="row">
+                       <form>
+                           <a asp-action="Edit" asp-route-id="@item.Id">
+                               <input type="submit" value="Editar" class="btn btn-warning btn-sm" />
+                           </a> |
+                       </form>
+    <form asp-action="Details" asp-route-id="@item.Id">
+        <div class="form-group col-md-2">
+            <input type="submit" value="Detalles" class="btn btn-info btn-sm" />
+        </div>
+    </form>
+    <form asp-action="Delete" asp-route-id="@item.Id">
+        <div class="form-group col-md-2">
+            <input type="submit" value="Borrar" class="btn btn-danger btn-sm" />
+        </div>*@
+    @*</form>
+    </div>*@
                     </td>
                 </tr>
             }

@@ -33,17 +33,21 @@ namespace WebApplication1.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Index(int peli)
+        public IActionResult Index(int? peli)
         {
             //Redireccionamos el id de pelicula elegida al controller de compras
-            return RedirectToAction("Create","Compras", new {numeroPeli = peli});
+            if (peli != null)
+            {
+                return RedirectToAction("Create", "Compras", new { numeroPeli = peli });
+            }
+            else {
+                ViewData["ErrorSeleccion"] = "Debe seleccionar una película";
+                ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "Id", "Nombre");
+                return View();
+            }
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
+      
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

@@ -94,8 +94,8 @@ namespace WebCineMVC.Controllers
             {
                 return NotFound();
             }
-            ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "Id", "Nombre", funcion.PeliculaId);
-            ViewData["SalaId"] = new SelectList(_context.Salas, "Id", "Id", funcion.SalaId);
+            ViewData["PelId"] = new SelectList(_context.Peliculas,"Id","Nombre");
+            ViewData["SId"] = CrearSelectListSalas(_context.Salas);
             return View(funcion);
         }
 
@@ -172,9 +172,44 @@ namespace WebCineMVC.Controllers
             return _context.Funciones.Any(e => e.Id == id);
         }
 
-        
+        public IEnumerable<SelectListItem> CrearSelectListPeliculas(IEnumerable<Pelicula> peliculas)
+        {
+            List<SelectListItem> selectList = new List<SelectListItem>();
 
-        
+            foreach (Pelicula pelicula in peliculas)
+            {                       
+                    {
+                        SelectListItem selectItem = new SelectListItem
+                        {
+                            Text = pelicula.Nombre.ToString(),
+                            Value = pelicula.Id.ToString(),
+                            Selected = false
+                        };
+                        selectList.Add(selectItem);
+                    }
+            }
+            return selectList;
+        }
+
+        public IEnumerable<SelectListItem> CrearSelectListSalas(IEnumerable<Sala> salas)
+        {
+            List<SelectListItem> selectList = new List<SelectListItem>();
+
+            foreach (Sala sala in salas)
+            {
+                {
+                    SelectListItem selectItem = new SelectListItem
+                    {
+                        Text = sala.Numero.ToString(),
+                        Value = sala.Id.ToString(),
+                        Selected = false
+                    };
+                    selectList.Add(selectItem);
+                }
+
+            }
+            return selectList;
+        }
 
     }
 }
