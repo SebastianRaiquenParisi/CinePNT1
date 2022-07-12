@@ -1,6 +1,13 @@
-﻿.comprobante {
-    font-size: 23px;
-    color:floralwhite;
+﻿.tituloComp {
+    font-size: 45px;
+    text-align: center;
+    margin-right: 50px;
+    color: floralwhite;
+    font-family: Britannic;
+}
+.comprobante {
+    font-size: 30px;
+    color: floralwhite;
     font-family: Britannic;
 }
 

@@ -31,24 +31,6 @@ namespace WebCineMVC.Controllers
             return View(compra);
         }
 
-        // GET: Compras/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-                var compra = await _context.Compras
-                .Include(c => c.Funcion)
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (compra == null)
-            {
-                return NotFound();
-            }
-
-            return View(compra);
-        }
 
         // GET: Compras/Create
         public IActionResult Create(int? numeroPeli)
@@ -113,7 +95,6 @@ namespace WebCineMVC.Controllers
                     }
                 }
             }
-
 
             return selectList;
         }
