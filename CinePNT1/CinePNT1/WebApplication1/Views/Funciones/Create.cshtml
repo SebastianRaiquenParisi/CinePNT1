@@ -2,46 +2,53 @@
 
 @{
     ViewData["Title"] = "Crear nueva función";
+
+    if (Model.Fecha.Year == 1)
+    {
+        var src = DateTime.Now;
+        var hm = new DateTime(src.Year, src.Month, src.Day, src.Hour, src.Minute, 0);
+        Model.Fecha = hm;
+    }
 }
 
-    <div class="Titulo">
-        Crear nueva funcion
-    </div>
+<div class="Titulo">
+    Crear nueva funcion
+</div>
 
-    <div class="movieElect">
-    
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label class="subForms">Fecha</label>
-                <input asp-for="Fecha" class="form-control" />
-                <span asp-validation-for="Fecha" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label class="subForms">Sala</label>
-                <select asp-for="SalaId" class="form-control" asp-items="ViewBag.numeroSala">
-                    <option selected="selected" value="">Seleccionar</option>
-                </select>
-                <span asp-validation-for="SalaId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label class="subForms">Pelicula</label>
-                <select asp-for="PeliculaId" class="form-control" asp-items="ViewBag.nombrePeli">
-                    <option selected="selected" value="">Seleccionar</option>
-                </select>
-                <span asp-validation-for="PeliculaId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Crear" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
+<div class="movieElect">
 
-    <form class="botonRetorno" asp-action="Index">   
-            <input type="submit" value="Volver al listado" class="btn btn-primary" />
+    <form asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label class="subForms">Fecha</label>
+            <input asp-for="Fecha" class="form-control" />
+            <span asp-validation-for="Fecha" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label class="subForms">Sala</label>
+            <select asp-for="SalaId" class="form-control" asp-items="ViewBag.numeroSala">
+                <option selected="selected" value="">Seleccionar</option>
+            </select>
+            <span asp-validation-for="SalaId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label class="subForms">Pelicula</label>
+            <select asp-for="PeliculaId" class="form-control" asp-items="ViewBag.nombrePeli">
+                <option selected="selected" value="">Seleccionar</option>
+            </select>
+            <span asp-validation-for="PeliculaId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Crear" class="btn btn-primary" />
+        </div>
     </form>
+</div>
 
-    
+<form class="botonRetorno" asp-action="Index">
+    <input type="submit" value="Volver al listado" class="btn btn-primary" />
+</form>
+
+
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

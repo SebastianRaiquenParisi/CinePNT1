@@ -30,6 +30,7 @@ namespace WebCineMVC.Controllers
         // GET: Funciones/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            ViewData["tickets"] = "TicketsDisponibles";
             if (id == null)
             {
                 return NotFound();

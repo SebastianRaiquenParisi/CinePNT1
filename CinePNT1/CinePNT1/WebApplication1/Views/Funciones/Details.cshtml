@@ -11,28 +11,29 @@
 <div class="movieDetails">
 
     <dl class="row">
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Fecha)
+        <dt class="col-sm-12">
+            <u>@Html.DisplayNameFor(model => model.Fecha)</u>
         </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Fecha)
+        <dd class="col-sm-12">
+               @Html.DisplayFor(model => model.Fecha)
         </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Sala)
+        <dt class="col-sm-12">
+            <u>@Html.DisplayNameFor(model => model.Sala)</u>
         </dt>
-        <dd class="col-sm-10">
+        <dd class="col-sm-12">
             @Html.DisplayFor(model => model.Sala.Numero)
         </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Pelicula)
+        <dt class="col-sm-12">
+            <u>@Html.DisplayNameFor(model => model.Pelicula)</u>
         </dt>
-        <dd class="col-sm-10">
+        <dd class="col-sm-12">
             @Html.DisplayFor(model => model.Pelicula.Nombre)
         </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.TicketsDisponibles)
+        <dt class="col-sm-12">
+            <u>@Html.DisplayNameFor(model => model.TicketsDisponibles)</u>
+                        @*@ViewData["tickets"]*@
         </dt>
-        <dd class="col-sm-10">
+        <dd class="col-sm-12">
             @Html.DisplayFor(model => model.TicketsDisponibles)
         </dd>
     </dl>
