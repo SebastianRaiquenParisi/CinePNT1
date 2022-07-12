@@ -4,6 +4,18 @@
     font-family: Britannic;
 }
 
+dl dt {
+    font-size: 27px;
+    color: palegoldenrod;
+    font-family: Britannic;
+    
+}
+
+dl dd {
+    font-size: 24px;
+    color: papayawhip;
+    font-family: Britannic;
+}
 
 .errorTickets {
     font-size: 15px;
@@ -20,13 +32,13 @@
 
 table th {
     font-size: 27px;
-    color: palegoldenrod;
+    color: navajowhite;
     font-family: Britannic;
 }
 
 table td {
     font-size: 20px;
-    color: palegoldenrod;
+    color:whitesmoke;
     font-family: Britannic;
 }
 
@@ -76,13 +88,19 @@ nav {
     margin-left: 310px;
 }
 
+.movieDetails {
+    width: 50%;
+    text-align: center;
+    margin-left: 300px;
+}
+
 .form-group {
     text-align: center;
 }
 
 .botonRetorno {
     text-align: center;
-    margin-right: 60px;
+    margin-right: 50px;
 }
 
 .Titulo {

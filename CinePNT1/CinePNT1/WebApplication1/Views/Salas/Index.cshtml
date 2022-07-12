@@ -4,11 +4,15 @@
     ViewData["Title"] = "Salas";
 }
 
-<h1>Salas</h1>
+<div class="Titulo">
+    Salas
+</div>
 
-<p>
-    <a asp-action="Create">Crear nueva sala</a>
-</p>
+<form asp-action="Create">
+    <div class="form-group">
+        <input type="submit" asp-action="Create" value="Agregar nueva sala" class="btn btn-success btn-lg" />
+    </div>
+</form>
 <table class="table">
     <thead>
         <tr>
@@ -31,9 +35,9 @@
                 @Html.DisplayFor(modelItem => item.Numero)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Borrar</a>
+                <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Borrar</a>
             </td>
         </tr>
 }

@@ -8,18 +8,20 @@ namespace WebCineMVC.Models
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Debe ingresar una fecha")]
         [RestrictedDate(ErrorMessage = "Fecha invalida")]
         public DateTime Fecha { get; set; }
 
+        [Required(ErrorMessage = "Debe ingresar una sala")]
         [Display(Name = "Sala")]
         public int SalaId { get; set; }
         public Sala Sala { get; set; }
 
         [Display(Name = "Pelicula")]
+        [Required(ErrorMessage = "Debe seleccionar una pelicula")]
         public int PeliculaId { get; set; }
         public Pelicula Pelicula { get; set; }
 
+        [Required(ErrorMessage = "Debe ingresar por lo menos un ticket")]
         [Display(Name = "Tickets disponibles")]
         public int TicketsDisponibles { get; set; }
 
@@ -32,12 +34,9 @@ namespace WebCineMVC.Models
             }
         }
 
-        public void actualizarTickets(int cantidadDeTickets) {
+        public void actualizarTickets(int cantidadDeTickets)
+        {
             TicketsDisponibles -= cantidadDeTickets;
-        }
-
-        public String getPelicula() {
-            return Pelicula.Nombre.ToString();
         }
 
     }

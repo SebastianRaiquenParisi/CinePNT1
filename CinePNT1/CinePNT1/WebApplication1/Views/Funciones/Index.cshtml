@@ -4,13 +4,11 @@
     ViewData["Title"] = "Funciones";
 }
 
- 
-
 <div class="Titulo">
     Función
 </div>
 
-<<form asp-action="Create">
+<form asp-action="Create">
     <div class="form-group">
         <input type="submit" asp-action="Create" value="Agregar nueva función" class="btn btn-success btn-lg" />
     </div>
@@ -38,32 +36,15 @@
                         @Html.DisplayFor(modelItem => item.Fecha)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Sala.Id)
+                        @Html.DisplayFor(modelItem => item.Sala.Numero)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Pelicula.Nombre)
                     </td>
                     <td>
-                        <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                        <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
-                        <a asp-action="Delete" asp-route-id="@item.Id">Borrar</a>
-                   @*<div class="row">
-                       <form>
-                           <a asp-action="Edit" asp-route-id="@item.Id">
-                               <input type="submit" value="Editar" class="btn btn-warning btn-sm" />
-                           </a> |
-                       </form>
-    <form asp-action="Details" asp-route-id="@item.Id">
-        <div class="form-group col-md-2">
-            <input type="submit" value="Detalles" class="btn btn-info btn-sm" />
-        </div>
-    </form>
-    <form asp-action="Delete" asp-route-id="@item.Id">
-        <div class="form-group col-md-2">
-            <input type="submit" value="Borrar" class="btn btn-danger btn-sm" />
-        </div>*@
-    @*</form>
-    </div>*@
+                        <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                        <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
+                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Borrar</a>
                     </td>
                 </tr>
             }

@@ -4,20 +4,12 @@
     ViewData["Title"] = "Crear nueva función";
 }
 
-<head>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
-</head>
-
-
     <div class="Titulo">
         Crear nueva funcion
     </div>
 
-
     <div class="movieElect">
-        @*<div class="row">
-            <div class="col-md-4">*@
+    
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -27,17 +19,22 @@
             </div>
             <div class="form-group">
                 <label class="subForms">Sala</label>
-                <select asp-for="SalaId" class="form-control" asp-items="ViewBag.SalaId"></select>
+                <select asp-for="SalaId" class="form-control" asp-items="ViewBag.numeroSala">
+                    <option selected="selected" value="">Seleccionar</option>
+                </select>
+                <span asp-validation-for="SalaId" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label class="subForms">Pelicula</label>
-                <select asp-for="PeliculaId" class="form-control" asp-items="ViewBag.PeliculaId"></select>
+                <select asp-for="PeliculaId" class="form-control" asp-items="ViewBag.nombrePeli">
+                    <option selected="selected" value="">Seleccionar</option>
+                </select>
+                <span asp-validation-for="PeliculaId" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Crear" class="btn btn-primary" />
             </div>
         </form>
-        @*</div>*@
     </div>
 
     <form class="botonRetorno" asp-action="Index">   

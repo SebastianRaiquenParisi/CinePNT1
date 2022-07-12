@@ -4,14 +4,11 @@
     ViewData["Title"] = "Editar Función";
 }
 
-<div class="Titulo">
-    Función
-</div>
+<div class="Titulo">Editar función</div>
 
 
 <div class="movieElect">
-    @*<div class="row">
-        <div class="col-md-4">*@
+    
             <form asp-action="Edit">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <input type="hidden" asp-for="Id" />
@@ -35,13 +32,13 @@
                     <span asp-validation-for="PeliculaId" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <input type="submit" value="Guardar" class="btn btn-primary" />
+                    <input type="submit" value="Guardar" class="btn btn-success" />
                 </div>
             </form>
  </div>
 
 <div class="botonRetorno">
-    <a asp-action="Index" asp-controller="Home"><input type="submit" value="Volver al inicio" class="btn btn-primary" /></a>
+    <a asp-action="Index"><input type="submit" value="Volver al listado" class="btn btn-primary" /></a>
 </div>
 
     @section Scripts {

@@ -14,12 +14,9 @@
     </header>
     <br /><br />
     <div class="movieElect">
-        @*<div class="row">
-            <div class="col-md-6">*@
         <form asp-action="Index" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                @*<label asp-for="PeliculaId" class="control-label display-3 text-info"></label>*@
                 <label class="homeTitulo">Selecciona tu pelicula</label>
                 <br />
                 <select asp-for="PeliculaId" class="form-control" name="peli" asp-items="ViewBag.PeliculaId">
@@ -31,8 +28,6 @@
             </div>
             <div class="errorTickets">@ViewData["ErrorSeleccion"]</div>
         </form>
-        @*</div>
-            </div>*@
     </div>
     <br />
     <br />

@@ -4,7 +4,6 @@
     ViewData["Title"] = "Compra finalizada";
 }
 
-
 <head>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
@@ -16,28 +15,24 @@
 </div>
 
 <div class="movieElect">
-    @*<div class="row">
-        <div class="col-md-4">*@
     <form>
-        @*<div asp-validation-summary="ModelOnly" class="text-danger"></div>*@
-        <div class="form-group display-2">
+        <div class="form-group display-4">
             <label class="comprobante">Comprobante</label>
         </div>
         <div class="form-group">
             <label class="comprobante">Dni: @Html.DisplayFor(model => model.Dni) </label>
-            @*<div class="comprobante">@Html.DisplayFor(model => model.Dni)</div>*@
         </div>
         <div class="form-group">
             <label class="comprobante">Función: @ViewData["Fecha"] </label>
-            @*<div class="comprobante">@ViewData["Fecha"]</div>*@
+            
         </div>
         <div class="form-group">
             <label class="comprobante">Pelicula: @ViewData["PElegida"] </label>
-             @*<div class="comprobante">@ViewData["PElegida"]</div>*@
+             
         </div>
         <div class="form-group">
             <label class="comprobante">Entradas compradas: @Html.DisplayFor(model => model.CantidadDeEntradas) </label>
-            @*<div class="comprobante">@Html.DisplayFor(model => model.CantidadDeEntradas)</div>*@
+            
         </div>
     </form>
 </div>
@@ -46,41 +41,6 @@
     <a asp-action="Index" asp-controller="Home"><input type="submit" value="Volver al menú principal" class="btn btn-primary" /></a>
 </div>
 
-
-@*<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Dni)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Funcion)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CantidadDeEntradas)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                @Html.DisplayFor(model => model.Dni)
-            </td>
-            <td>
-                @ViewData["Pelicula"]
-            </td>
-
-            <td>
-                @Html.DisplayFor(model => model.CantidadDeEntradas)
-            </td>
-            <td>
-                @ViewData["Fecha"]
-            </td>
-
-        </tr>
-    </tbody>
-</table>*@
 
 
 

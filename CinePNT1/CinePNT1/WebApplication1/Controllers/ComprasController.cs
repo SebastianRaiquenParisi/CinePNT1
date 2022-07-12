@@ -64,13 +64,11 @@ namespace WebCineMVC.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Dni,FuncionId,CantidadDeEntradas")] Compra compra)
         {
+            var funciones = _context.Funciones;
+            var funcion = funciones.Find(compra.FuncionId);
 
-            
             if (ModelState.IsValid)
             {
-                var funciones = _context.Funciones;
-                var funcion = funciones.Find(compra.FuncionId);
-
                 if (validarEntradasDisponibles(funcion.TicketsDisponibles, compra.CantidadDeEntradas))
                 {
                     funcion.actualizarTickets(compra.CantidadDeEntradas);
@@ -85,8 +83,9 @@ namespace WebCineMVC.Controllers
                 }
 
             }
-            
-            return RedirectToAction(nameof(CompraFinalizada));
+
+            ViewData["FuncionId"] = CrearSelectListFunciones(_context.Funciones, funcion.PeliculaId.ToString());
+            return View(compra);
         }
 
         private bool validarEntradasDisponibles(int ticketsDisponibles, int cantidadEntradas) {

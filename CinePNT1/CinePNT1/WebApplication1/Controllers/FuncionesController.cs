@@ -52,17 +52,10 @@ namespace WebCineMVC.Controllers
         {
             ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "Id", "Nombre");
             ViewData["SalaId"] = new SelectList(_context.Salas, "Id", "Numero");
-            //ViewData["PeliculaId"] = CrearSelectListPeliculasCreate(_context.Peliculas);
-            //ViewData["SalaId"] = CrearSelectListSalasCreate(_context.Salas);
-
             return View();
         }
 
 
-
-        // POST: Funciones/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Fecha,SalaId,PeliculaId")] Funcion funcion)
@@ -76,8 +69,8 @@ namespace WebCineMVC.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "Id", "Nombre",funcion.PeliculaId);
-            ViewData["SalaId"] = new SelectList(_context.Salas, "Id", "Numero",funcion.SalaId);
+            ViewData["nombrePeli"] = new SelectList(_context.Peliculas, "Id", "Nombre");
+            ViewData["numeroSala"] = new SelectList(_context.Salas, "Id", "Numero");
             return View(funcion);
         }
 
@@ -88,20 +81,17 @@ namespace WebCineMVC.Controllers
             {
                 return NotFound();
             }
-
             var funcion = await _context.Funciones.FindAsync(id);
             if (funcion == null)
             {
                 return NotFound();
             }
-            ViewData["PelId"] = new SelectList(_context.Peliculas,"Id","Nombre");
-            ViewData["SId"] = CrearSelectListSalas(_context.Salas);
+            ViewData["PelId"] = new SelectList(_context.Peliculas,"Id","Nombre", funcion.PeliculaId);
+            ViewData["SId"] = new SelectList(_context.Salas, "Id", "Numero", funcion.SalaId);
             return View(funcion);
         }
 
-        // POST: Funciones/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Fecha,SalaId,PeliculaId")] Funcion funcion)
@@ -131,8 +121,8 @@ namespace WebCineMVC.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PeliculaId"] = new SelectList(_context.Peliculas, "Id", "Id", funcion.PeliculaId);
-            ViewData["SalaId"] = new SelectList(_context.Salas, "Id", "Id", funcion.SalaId);
+            ViewData["PelId"] = new SelectList(_context.Peliculas, "Id", "Nombre", funcion.PeliculaId);
+            ViewData["SId"] = new SelectList(_context.Salas, "Id", "Numero", funcion.SalaId);
             return View(funcion);
         }
 
@@ -152,7 +142,8 @@ namespace WebCineMVC.Controllers
             {
                 return NotFound();
             }
-
+            ViewData["SalaId"] = funcion.Sala.Numero.ToString();
+            ViewData["PeliculaId"] = funcion.Pelicula.Nombre;
             return View(funcion);
         }
 
@@ -171,6 +162,15 @@ namespace WebCineMVC.Controllers
         {
             return _context.Funciones.Any(e => e.Id == id);
         }
+
+        //public class RestrictedDate : ValidationAttribute
+        //{
+        //    public override bool IsValid(object date)
+        //    {
+        //        DateTime fecha = (DateTime)date;
+        //        return fecha >= DateTime.Now;
+        //    }
+        //}
 
         public IEnumerable<SelectListItem> CrearSelectListPeliculas(IEnumerable<Pelicula> peliculas)
         {

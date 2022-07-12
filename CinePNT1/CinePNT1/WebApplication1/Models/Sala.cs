@@ -9,7 +9,6 @@ namespace WebCineMVC.Models
 
         [Required(ErrorMessage = "Debe ingresar un numero de sala")]
         [Range(1,20, ErrorMessage = "Numero de sala inválido")]
-
         public int Numero { get; set; }
 
         [Required(ErrorMessage = "Debe ingresar una cantidad de asientos")]
