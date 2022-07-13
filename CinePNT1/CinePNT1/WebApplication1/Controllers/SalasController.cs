@@ -64,6 +64,9 @@ namespace WebCineMVC.Controllers
                     await _context.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));
                 }
+                else {
+                    ViewData["SalaExistente"] = "La sala ya existe";
+                }
             }
             return View(sala);
         }

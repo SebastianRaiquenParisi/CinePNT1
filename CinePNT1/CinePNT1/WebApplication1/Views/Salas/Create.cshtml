@@ -20,7 +20,8 @@
             <label class="subForms">Numero</label>
             <input asp-for="Numero" class="form-control" />
             <span asp-validation-for="Numero" class="text-danger"></span>
-        </div>
+            <div class="errorTickets">@ViewData["SalaExistente"]</div>
+       </div>
         <div class="form-group">
             <input type="submit" value="Crear" class="btn btn-primary" />
         </div>

@@ -5,6 +5,8 @@
     color: floralwhite;
     font-family: Britannic;
 }
+
+/*Le damos estilo al comprobante final*/
 .comprobante {
     font-size: 30px;
     color: floralwhite;
@@ -23,14 +25,18 @@ dl dd {
     color: papayawhip;
     font-family: Britannic;
 }
+/*--------------------------------------------------*/
 
+/*Estilo a los mensajes de error de sala duplicada y cantidad de tickets a comprar supera el limite disp*/
 .errorTickets {
     font-size: 15px;
     color: red;
     padding:0;
     margin:0;
 }
+/*---------------------------------------------------*/
 
+/*Le damos estilo al front de los modelos, principalmente los index*/
 .subForms {
     font-size: 30px;
     color:brown;
@@ -53,7 +59,7 @@ a.opciones{
         color: palegoldenrod;
         font-family: Britannic;
     }
-
+/*---------------------------------------------------*/
 
 /*Le damos estilo a la barra de navegación*/
 nav {
@@ -79,9 +85,10 @@ nav {
     content: "";
     display: table;
     clear: both;
- } 
+ }
+/*---------------------------------------------------*/
 
-/*Y aqui, le damos estilo al titulo y al form para seleccionar las películas*/
+/*Y aqui, le damos estilo a los titulos principales, distintos forms de nuestros modelos, boton de retorno*/
 .homeTitulo {
     font-size: 40px;
     color: crimson;
@@ -105,6 +112,7 @@ nav {
     text-align: center;
 }
 
+
 .botonRetorno {
     text-align: center;
     margin-right: 50px;
@@ -117,14 +125,9 @@ nav {
     text-align: center;
     color: palegoldenrod;
 }
+/*------------------------------------------------------*/
 
-/*a.navbar-brand {
-  font-size: 20px;
-  font-family:'Comic Sans MS';
-  white-space: normal;
-  word-break: break-all;
-}*/
-
+/*Le damos estilos a nuestros links, principalmente los del nav y los botones edit,details y delete*/
 
 a:link {
     text-decoration: underline;
@@ -140,18 +143,6 @@ a:hover {
   border-color: #1861ac;
 }
 
-/*.nav-pills .nav-link.active, .nav-pills .show > .nav-link {*/
-    /*color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;*/
-    /*background-color:transparent;
-    border-color: aqua;
-    color:bisque;
-}
-
-.nav-item {
-    font-size: 25px;
-}*/
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -187,6 +178,7 @@ html {
   min-height: 100%;
 }
 
+/*Personalizamos el fondo para la pantalla principal y las restantes pantallas*/
 .fondoHome {
     background-image: url("/images/main.jpg");
     width: 100%;
@@ -195,17 +187,9 @@ html {
 }
 
 body {
-    /* Margin bottom by footer height */
-    /*margin-bottom: 25px;*/
     background-image: url("/images/main2.jpg");
     width: 100%;
     background-size:contain;
     background-position: center;
 }
-/*.footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    white-space: nowrap;
-    line-height: 60px;*/ /* Vertically center the text there */
-/*}*/
+
