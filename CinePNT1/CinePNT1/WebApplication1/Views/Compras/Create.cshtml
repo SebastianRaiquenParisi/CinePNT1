@@ -11,16 +11,19 @@
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group">
                     <label class="subForms">Dni</label>
-                    <input asp-for="Dni" class="form-control" />
+                    <input asp-for="Dni" class="form-control" autocomplete="off" />
                     <span asp-validation-for="Dni" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label class="subForms">Función</label>
-                    <select asp-for="FuncionId" class="form-control" asp-items="ViewBag.FuncionId"></select>
+                    <select asp-for="FuncionId" class="form-control" asp-items="ViewBag.FuncionId">
+                        <option selected="selected" value="">Seleccionar</option>
+                    </select>
+                    <span asp-validation-for="FuncionId" class="text-danger"></span>
                 </div>
                 <div class="form-group">
                     <label class="subForms">Cantidad</label>
-                    <input asp-for="CantidadDeEntradas" class="form-control" />
+                    <input asp-for="CantidadDeEntradas" class="form-control" min="0" value="1"/>
                     <span asp-validation-for="CantidadDeEntradas" class="text-danger"></span>
                     <div class="errorTickets">@ViewData["ErrorTicketsInsuficientes"]</div>
                 </div>

@@ -3,14 +3,11 @@
 @{
     ViewData["Title"] = "CinemaOrt";
 }
-<html>
+
 
 <body class="fondoHome">
-
     <header>
-        <div class="Titulo">
-            <p>Bienvenidos a CinemaOrt</p>
-        </div>
+        <div class="Titulo"><p>Bienvenidos a CinemaOrt</p></div>
     </header>
     <br /><br />
     <div class="movieElect">
@@ -29,13 +26,10 @@
             <div class="errorTickets">@ViewData["ErrorSeleccion"]</div>
         </form>
     </div>
-    <br />
-    <br />
-    <br />
+    <br /><br /><br />
+</body>
 
     @section Scripts {
         @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
     }
 
-</body>
-</html>

@@ -12,12 +12,12 @@
         <input type="hidden" asp-for="Id" />
         <div class="form-group">
             <label class="subForms">Asientos</label>
-            <input asp-for="Asientos" class="form-control" />
+            <input asp-for="Asientos" class="form-control" min="0" value="0" />
             <span asp-validation-for="Asientos" class="text-danger"></span>
         </div>
         <div class="form-group">
             <label class="subForms">Numero</label>
-            <input asp-for="Numero" class="form-control" />
+            <input asp-for="Numero" class="form-control" min="0" value="0"/>
             <span asp-validation-for="Numero" class="text-danger"></span>
         </div>
         <div class="form-group">

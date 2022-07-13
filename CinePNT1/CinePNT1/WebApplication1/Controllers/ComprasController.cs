@@ -59,7 +59,7 @@ namespace WebCineMVC.Controllers
                     return RedirectToAction(nameof(CompraFinalizada));
                 }
                 else {
-                    ViewData["ErrorTicketsInsuficientes"] = "No hay suficientes entradas para procesar tu pedido";
+                    ViewData["ErrorTicketsInsuficientes"] = "Tickets insuficientes, quedan disponibles: " + funcion.TicketsDisponibles;
                     ViewData["FuncionId"] = CrearSelectListFunciones(_context.Funciones, funcion.PeliculaId.ToString());
                     return View();
                 }
@@ -70,6 +70,7 @@ namespace WebCineMVC.Controllers
             return View(compra);
         }
 
+        //Validamos que la cantidad de entradas de la función puedan responder la solicitud del cliente
         private bool validarEntradasDisponibles(int ticketsDisponibles, int cantidadEntradas) {
             return cantidadEntradas <= ticketsDisponibles;
         }

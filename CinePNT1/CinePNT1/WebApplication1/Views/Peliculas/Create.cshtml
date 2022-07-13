@@ -11,13 +11,13 @@
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <div class="form-group">
             <label class="subForms">Nombre</label>
-            <input asp-for="Nombre" class="form-control" />
+            <input asp-for="Nombre" class="form-control" autocomplete="off" />
             <span asp-validation-for="Nombre" class="text-danger"></span>
         </div>
         <div class="form-group">
             <label class="subForms">Duración</label>
-            <input asp-for="Duracion" class="form-control" />
-            <span asp-validation-for="Duracion" class="text-danger"></span>
+            <input asp-for="Duracion" class="form-control" autocomplete="off" />
+            <span asp-validation-for="Duracion" class="text-danger" ></span>
         </div>
         <div class="form-group">
             <input type="submit" value="Agregar" class="btn btn-primary" />

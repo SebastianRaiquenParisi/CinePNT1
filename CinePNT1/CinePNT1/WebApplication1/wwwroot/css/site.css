@@ -1,4 +1,5 @@
-﻿.tituloComp {
+﻿/*Le damos estilo al comprobante final*/
+.tituloComp {
     font-size: 45px;
     text-align: center;
     margin-right: 50px;
@@ -6,14 +7,13 @@
     font-family: Britannic;
 }
 
-/*Le damos estilo al comprobante final*/
 .comprobante {
     font-size: 30px;
     color: floralwhite;
     font-family: Britannic;
 }
 
-d1 dt {
+dl dt {
     font-size: 28px;
     color: palegoldenrod;
     font-family: Britannic;

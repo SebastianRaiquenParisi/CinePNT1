@@ -1066,16 +1066,12 @@ C:\Users\ezequiel.ilivitzky\Desktop\Eze\Analista de Sistemas\1año2cuatri\PNT1\P
 C:\Users\ezequiel.ilivitzky\Desktop\Eze\Analista de Sistemas\1año2cuatri\PNT1\Proyecto final\CinePNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\WebCineMVC.RazorCoreGenerate.cache
 C:\Users\ezequiel.ilivitzky\Desktop\Eze\Analista de Sistemas\1año2cuatri\PNT1\Proyecto final\CinePNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Compras\CompraFinalizada.cshtml.g.cs
 C:\Users\ezequiel.ilivitzky\Desktop\Eze\Analista de Sistemas\1año2cuatri\PNT1\Proyecto final\CinePNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Compras\Create.cshtml.g.cs
-C:\Users\ezequiel.ilivitzky\Desktop\Eze\Analista de Sistemas\1año2cuatri\PNT1\Proyecto final\CinePNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Compras\Delete.cshtml.g.cs
-C:\Users\ezequiel.ilivitzky\Desktop\Eze\Analista de Sistemas\1año2cuatri\PNT1\Proyecto final\CinePNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Compras\Details.cshtml.g.cs
-C:\Users\ezequiel.ilivitzky\Desktop\Eze\Analista de Sistemas\1año2cuatri\PNT1\Proyecto final\CinePNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Compras\Edit.cshtml.g.cs
 C:\Users\ezequiel.ilivitzky\Desktop\Eze\Analista de Sistemas\1año2cuatri\PNT1\Proyecto final\CinePNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Funciones\Create.cshtml.g.cs
 C:\Users\ezequiel.ilivitzky\Desktop\Eze\Analista de Sistemas\1año2cuatri\PNT1\Proyecto final\CinePNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Funciones\Delete.cshtml.g.cs
 C:\Users\ezequiel.ilivitzky\Desktop\Eze\Analista de Sistemas\1año2cuatri\PNT1\Proyecto final\CinePNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Funciones\Details.cshtml.g.cs
 C:\Users\ezequiel.ilivitzky\Desktop\Eze\Analista de Sistemas\1año2cuatri\PNT1\Proyecto final\CinePNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Funciones\Edit.cshtml.g.cs
 C:\Users\ezequiel.ilivitzky\Desktop\Eze\Analista de Sistemas\1año2cuatri\PNT1\Proyecto final\CinePNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Funciones\Index.cshtml.g.cs
 C:\Users\ezequiel.ilivitzky\Desktop\Eze\Analista de Sistemas\1año2cuatri\PNT1\Proyecto final\CinePNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\ezequiel.ilivitzky\Desktop\Eze\Analista de Sistemas\1año2cuatri\PNT1\Proyecto final\CinePNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\ezequiel.ilivitzky\Desktop\Eze\Analista de Sistemas\1año2cuatri\PNT1\Proyecto final\CinePNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Peliculas\Create.cshtml.g.cs
 C:\Users\ezequiel.ilivitzky\Desktop\Eze\Analista de Sistemas\1año2cuatri\PNT1\Proyecto final\CinePNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Peliculas\Delete.cshtml.g.cs
 C:\Users\ezequiel.ilivitzky\Desktop\Eze\Analista de Sistemas\1año2cuatri\PNT1\Proyecto final\CinePNT1\CinePNT1\CinePNT1\WebApplication1\obj\Debug\netcoreapp3.1\Razor\Views\Peliculas\Details.cshtml.g.cs
